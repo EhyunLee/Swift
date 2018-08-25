@@ -39,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				5E3ECD9121311F1B00540FA3 /* Journal_Practice */,
+				5E3ECDA421311F6200540FA3 /* Journal_PracticeTests */,
 				5E3ECD9021311F1B00540FA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +55,69 @@
 		5E3ECD9121311F1B00540FA3 /* Journal_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				5E3ECD9221311F1B00540FA3 /* AppDelegate.swift */,
-				5E3ECD9421311F1B00540FA3 /* ViewController.swift */,
-				5E3ECD9621311F1B00540FA3 /* Main.storyboard */,
-				5E3ECD9921311F1D00540FA3 /* Assets.xcassets */,
-				5E3ECD9B21311F1D00540FA3 /* LaunchScreen.storyboard */,
-				5E3ECD9E21311F1D00540FA3 /* Info.plist */,
+				5E3ECDA521311F8200540FA3 /* Sources */,
+				5E3ECDA621311FA100540FA3 /* Storyboards */,
+				5E3ECDA721311FAF00540FA3 /* Resources */,
 			);
 			path = Journal_Practice;
+			sourceTree = "<group>";
+		};
+		5E3ECDA421311F6200540FA3 /* Journal_PracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Journal_PracticeTests;
+			sourceTree = "<group>";
+		};
+		5E3ECDA521311F8200540FA3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E3ECDA821311FCB00540FA3 /* Shared */,
+				5E3ECDAA21311FE200540FA3 /* Controllers */,
+				5E3ECDA921311FD900540FA3 /* Model */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5E3ECDA621311FA100540FA3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5E3ECD9621311F1B00540FA3 /* Main.storyboard */,
+				5E3ECD9B21311F1D00540FA3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5E3ECDA721311FAF00540FA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E3ECD9E21311F1D00540FA3 /* Info.plist */,
+				5E3ECD9921311F1D00540FA3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E3ECDA821311FCB00540FA3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5E3ECD9221311F1B00540FA3 /* AppDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5E3ECDA921311FD900540FA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E3ECDAA21311FE200540FA3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E3ECD9421311F1B00540FA3 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
