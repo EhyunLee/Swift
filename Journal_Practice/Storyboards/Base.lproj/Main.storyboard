@@ -31,9 +31,6 @@
                                         <rect key="frame" x="337" y="68" width="30" height="30"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="저장"/>
-                                        <connections>
-                                            <action selector="saveEntry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LUh-49-vE0"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.96412841429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -67,6 +64,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="button" destination="Tvb-St-7ku" id="wwM-hK-Ha6"/>
                         <outlet property="dateLabel" destination="seZ-s7-fgN" id="OUl-ME-cWr"/>
                         <outlet property="textView" destination="FcM-US-996" id="bea-Fb-87y"/>
                     </connections>
