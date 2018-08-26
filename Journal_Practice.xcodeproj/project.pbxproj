@@ -18,6 +18,7 @@
 		5E3ECDB32131374800540FA3 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3ECDB22131374800540FA3 /* Identifiable.swift */; };
 		5EC443CD213289300058D5B4 /* UIKit+Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC443CC213289300058D5B4 /* UIKit+Journal.swift */; };
 		5EC443CF213297FC0058D5B4 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC443CE213297FC0058D5B4 /* TimelineViewController.swift */; };
+		5EC443D52132A7CA0058D5B4 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC443D42132A7CA0058D5B4 /* Environment.swift */; };
 		73B82FAAEB91EF249A697DBE /* Pods_Journal_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CEFCE2C336AB081E8D1062 /* Pods_Journal_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		5E3ECDB22131374800540FA3 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		5EC443CC213289300058D5B4 /* UIKit+Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Journal.swift"; sourceTree = "<group>"; };
 		5EC443CE213297FC0058D5B4 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		5EC443D42132A7CA0058D5B4 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		B3CEFCE2C336AB081E8D1062 /* Pods_Journal_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journal_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF068A699C6144A2B0416309 /* Pods-Journal_Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal_Practice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Journal_Practice/Pods-Journal_Practice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				5E3ECD9221311F1B00540FA3 /* AppDelegate.swift */,
 				5E3ECDB22131374800540FA3 /* Identifiable.swift */,
 				5EC443CC213289300058D5B4 /* UIKit+Journal.swift */,
+				5EC443D42132A7CA0058D5B4 /* Environment.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E3ECDAF213136FC00540FA3 /* Entry.swift in Sources */,
+				5EC443D52132A7CA0058D5B4 /* Environment.swift in Sources */,
 				5E3ECD9521311F1B00540FA3 /* EntryViewController.swift in Sources */,
 				5E3ECD9321311F1B00540FA3 /* AppDelegate.swift in Sources */,
 				5E3ECDB32131374800540FA3 /* Identifiable.swift in Sources */,
