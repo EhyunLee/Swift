@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Journal {
+protocol EntryRepository {
     var numberOfEntries: Int { get }
     
     func add(_ entry: Entry)
@@ -18,7 +18,7 @@ protocol Journal {
     func recentEntries(max: Int) -> [Entry]
 }
 
-class InMemoryJournal: Journal {
+class InMemoryEntryRepository: EntryRepository {
     private var entries: [UUID: Entry]
     
     init(entries: [Entry] = []) {
@@ -30,6 +30,13 @@ class InMemoryJournal: Journal {
         
         self.entries = result
     }
+    
+    // 싱글턴 패턴: 저장소 공유하기
+    static var shared: InMemoryEntryRepository = {
+        let repository = InMemoryEntryRepository()
+        return repository
+    }()
+    
     
     var numberOfEntries: Int { return entries.count }
     
@@ -57,4 +64,5 @@ class InMemoryJournal: Journal {
         
         return Array(result)
     }
+    
 }

@@ -98,7 +98,9 @@ class EntryViewController: UIViewController {
     @IBOutlet weak var textViewBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var button: UIBarButtonItem!
     
-    let journal: Journal = InMemoryJournal()
+    let journal: EntryRepository = InMemoryEntryRepository.shared
+    // 저장소 불러와서 사용, 컨트롤러간의 공유가 필요함
+    
     private var editingEntry: Entry? // 수정했을때에도 새로운 Entry로 가지 않도록 확인하기 위해
     
     override func viewDidLoad() {

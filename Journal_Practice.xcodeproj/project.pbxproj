@@ -14,9 +14,10 @@
 		5E3ECD9D21311F1D00540FA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ECD9B21311F1D00540FA3 /* LaunchScreen.storyboard */; };
 		5E3ECDAC21312B6300540FA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ECDAB21312B6300540FA3 /* Default-568h@2x.png */; };
 		5E3ECDAF213136FC00540FA3 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3ECDAE213136FC00540FA3 /* Entry.swift */; };
-		5E3ECDB12131372200540FA3 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3ECDB02131372200540FA3 /* Journal.swift */; };
+		5E3ECDB12131372200540FA3 /* EntryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3ECDB02131372200540FA3 /* EntryRepository.swift */; };
 		5E3ECDB32131374800540FA3 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3ECDB22131374800540FA3 /* Identifiable.swift */; };
 		5EC443CD213289300058D5B4 /* UIKit+Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC443CC213289300058D5B4 /* UIKit+Journal.swift */; };
+		5EC443CF213297FC0058D5B4 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC443CE213297FC0058D5B4 /* TimelineViewController.swift */; };
 		73B82FAAEB91EF249A697DBE /* Pods_Journal_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CEFCE2C336AB081E8D1062 /* Pods_Journal_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,9 +32,10 @@
 		5E3ECD9E21311F1D00540FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E3ECDAB21312B6300540FA3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5E3ECDAE213136FC00540FA3 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
-		5E3ECDB02131372200540FA3 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		5E3ECDB02131372200540FA3 /* EntryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryRepository.swift; sourceTree = "<group>"; };
 		5E3ECDB22131374800540FA3 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		5EC443CC213289300058D5B4 /* UIKit+Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Journal.swift"; sourceTree = "<group>"; };
+		5EC443CE213297FC0058D5B4 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		B3CEFCE2C336AB081E8D1062 /* Pods_Journal_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journal_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF068A699C6144A2B0416309 /* Pods-Journal_Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal_Practice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Journal_Practice/Pods-Journal_Practice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				5E3ECDAE213136FC00540FA3 /* Entry.swift */,
-				5E3ECDB02131372200540FA3 /* Journal.swift */,
+				5E3ECDB02131372200540FA3 /* EntryRepository.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				5E3ECD9421311F1B00540FA3 /* EntryViewController.swift */,
+				5EC443CE213297FC0058D5B4 /* TimelineViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -276,8 +279,9 @@
 				5E3ECD9521311F1B00540FA3 /* EntryViewController.swift in Sources */,
 				5E3ECD9321311F1B00540FA3 /* AppDelegate.swift in Sources */,
 				5E3ECDB32131374800540FA3 /* Identifiable.swift in Sources */,
+				5EC443CF213297FC0058D5B4 /* TimelineViewController.swift in Sources */,
 				5EC443CD213289300058D5B4 /* UIKit+Journal.swift in Sources */,
-				5E3ECDB12131372200540FA3 /* Journal.swift in Sources */,
+				5E3ECDB12131372200540FA3 /* EntryRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
